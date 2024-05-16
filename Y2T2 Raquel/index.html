@@ -1,0 +1,203 @@
+<!-- Some of this code has been adapted from this tutorial [....] -->
+
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Add your meta description" />
+    
+    <!-- meta tags for Internet Explorer and mobile devices -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Accessible vs Inclusive Design</title>
+
+    <!-- add your stylesheet -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/9619ec5bf6.js" crossorigin="anonymous"></script>
+
+    <!-- I obtained the following code from https://youtu.be/CUEJkJ9HDbY?si=18qeB8Hr0Wp0FgT4. It is the HTML+CSS+JS code to allow light/dark mode to be toggled. This helps users choose the background they want for accessibility reasons -->
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    
+</head>
+
+<body>
+
+    <!-- Scroll to top https://www.youtube.com/watch?v=3Jbb3sQVVq0&ab_channel=LearnDesign -->    
+    
+
+        <!-- Nav https://www.youtube.com/watch?v=vz4z0RLcAyk -->
+        
+        <nav class="page-nav">  
+            <div class="logo">
+                <img src="images/accessibility-logo.svg" alt="Website logo. Orange square with two diamonds next to purple text with the word 'accessibility'"> 
+            </div>
+
+            <ul>
+                <li class="link-hover"><a href="index.html">Home</a></li>
+                <li class="link-hover"><a href="references.html">References</a></li>
+                <li class="link-hover"><a href="reflexion.html">Reflexion</a></li>
+                <li class="link-hover"><a href="#">
+                    <i class="bi bi-brightness-high-fill" id="toggleDark"></i></a></li>
+            </ul>
+        </nav>
+
+        <!-- header -->
+
+        <header class="page-header">
+            <div class="header-content">
+                <h1 class="header-title">Accessible vs<br> Inclusive Design</h1>
+                <p>What is the difference?</p>
+            </div>
+        </header>
+        
+
+        <section class="theory-content">
+        
+            <div class="theory-part">
+                <h2>Intro</h2>
+                    <p>
+                        Accessible design and inclusive design are two essential concepts in creating products that cater to a diverse range of users. While they share similarities, they have distinct differences that impact how products are developed to be user-friendly for all individuals, regardless of their abilities or circumstances.</p>
+            </div>
+
+            <div class="theory-part">
+                <h2 id="accessible">Accessible Design</h2>
+                    <p>
+                        Accessibility in design focuses on ensuring that interfaces, products, and technologies are usable by people with disabilities. It aims to meet the needs of people with disabilities by following <a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank" title="Read more information about Web Content Accessibility Guidelines (WCAG)"> Web Content Accessibility Guidelines (WCAG)</a> and standards. It is more focused on the end product and ensuring usability for individuals with disabilities.</p>
+            </div>
+
+            <div class="theory-part">
+                <h2 id="inclusive">Inclusive Design</h2>
+                    <p>
+                        Inclusive design is a broader spectrum that considers user diversity, situational handicaps, and various perspectives to create products for everyone. It is a methodology that challenges designers to make products easier to use for all individuals, not just those with disabilities, by considering permanent, temporary, and situational disabilities alike. Inclusive design relies on testing and creativity to enhance user-friendliness for everyone, without specific legal standards.</p>
+
+                    <p>
+                        <a href="https://www.designcouncil.org.uk/fileadmin/uploads/dc/Documents/the-principles-of-inclusive-design.pdf" target="_blank" title="Read a guide about the principles of inclusive design by the Commission for Architecture and the Built Environment">The principles of inclusive design</a>, as outlined by The Commission for Architecture and the Built Environment (CABE), include Inclusive, Responsive, Flexible, Convenient, Accommodating for all people, Welcoming, and Realistic.</p>
+                    
+                    <p>
+                        <a href="https://inclusive.microsoft.design/" target="_blank" title="Lean about inclusive design with Microsoft's toolkit">Microsoft's Inclusive Design Toolkit</a> provides valuable insights into the principles and practices of inclusive design, emphasising the importance of diversity in user research and the creation of adaptable and flexible designs.</p>
+            </div>
+
+            <div class="theory-part">
+                <h2 id="work-together">How They Work Together</h2>
+                    <p>Although different in theory, accessible and inclusive design complement each other in numerous ways:</p>
+
+                    <div class="work-together-container">
+                        <ul class="list">
+                            <li>
+                                Accessible design is a crucial component of inclusive design, ensuring that products are usable by individuals with disabilities while also benefiting others.</li>
+                            <li>
+                                Both approaches aim to enhance usability for all users, aligning with the shared objective of making products more practical.</li>
+                            <li>
+                                By considering design principles from both during the development stage, businesses can increase their customer base and create more user-friendly products.</li>
+                        </ul>
+
+                        <div class="work-together-image">
+                            <img alt="" src="images/comparison.svg">
+                        </div>
+                    </div>
+            </div>
+
+            <div class="theory-part">
+                <h2 id="conclusion">Conclusion</h2>
+                    <p>
+                        In conclusion, while accessible design focuses on meeting the needs of individuals with disabilities through specific guidelines and standards, inclusive design takes a broader approach by considering diverse user perspectives, testing and creating products that cater to a wide range of abilities and situations. Both concepts are essential in creating user-friendly digital products that are accessible to all.</p>
+            </div>
+
+        </section>
+
+        <figure class="image">
+            <img alt="People from various ethnicities, ages, and with visible disabilities holding hands in a circle" src="images/image-break.png">
+            <figcaption> &copy <a href="https://uxplanet.org/the-power-of-accessibility-in-design-creating-inclusive-experiences-9149ba2f5ef9">UX Planet</a></figcaption>
+        </figure>
+        
+    
+        <section class="extra-content">
+            <h2>Bonus Content</h2>
+            <p>
+                Find out more about the similarities and differences between accessibility and inclusive design and how to design for all.</p>
+
+            <iframe width="750" height="365" src="https://www.youtube.com/embed/hE83Qn-PTGA?si=egCNFdrIg3o6jqrK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+
+        <div class="newsletter">
+
+            <div class='subscribe_image'>
+                <img src='https://www.brafton.com/wp-content/uploads/2024/01/Brafton-Newsletter-Blog_Assets_TOC-9.png'> 
+              </div>
+
+            <div class="form-header">
+                <h2 class="form-title">Enjoying this content?</h2>
+                <p class="form-subtitle">
+                    Sign up for our biweekly newsletter and stay up to date with our latest research, case studies, and other value-packed content.</p>    
+            </div>
+
+            <form action="https://formspree.io/[your email address goes here]" method="post" class="form">
+                
+                <div class="form-input">
+                    <label for="contact-name" class="input-field">Enter your name</label>
+                    <input id="contact-name" type="text" name="contact-name" />
+                </div>
+                
+                <div class="form-input">
+                    <label for="contact-email" class="input-field">Enter your email</label>
+                    <input id="contact-email" type="email" name="contact-email" />
+                </div>
+                
+                <div class="form-input-multichoice">
+                    <p class="input-field">What do you want to hear about?</p> 
+                    
+                    <div class="form-input-multichoice-options">
+                        <div>
+                            <input id="accessibility" type="checkbox" name="accessibility" value="accessibility">
+                            <label for="accessibility" class="option">Accessibility</label>
+                        </div>
+
+                        <div>
+                            <input id="uxdesign" type="checkbox" name="uxdesign" value="uxdesign">
+                            <label for="uxdesign" class="form-checkbox-item">UX Design</label>
+                        </div>
+                            
+                        <div>
+                            <input id="uidesign" type="checkbox" name="uidesign" value="uidesign">
+                            <label for="uidesign" class="form-checkbox-item"> UI Design</label>
+                        </div>
+
+                        <div>
+                            <input id="trends" type="checkbox" name="trends" value="trends">
+                            <label for="trends" class="form-checkbox-item"> Design Trends</label>
+                        </div>
+
+                        <div>
+                            <input id="selectall" type="checkbox" name="selectall" value="selectall">
+                            <label for="selectall" class="form-checkbox-item"> All content</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <p>
+                    <input type="submit" value="Sign Up now"/> </p>
+
+                <p class="smallPrint">
+                    By submitting this form, you confirm your subscription and understand that you will be able to change your preferences later.</p>
+            </form>
+        </div>
+
+        <footer class="page-footer">
+            <div class="footer-content">
+                <p>
+                    <span class="footer-text">Raquel Riquelme Pérez</span>
+                    <span class="footer-separator">&middot;</span>
+                    <span class="footer-text">Year 2 Triad 2 - Coding and UX</span>
+                </p>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>

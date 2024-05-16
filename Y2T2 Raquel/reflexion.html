@@ -1,0 +1,73 @@
+<!-- Some of this code has been adapted from this tutorial [....] -->
+
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Add your meta description" />
+    
+    <!-- meta tags for Internet Explorer and mobile devices -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Accessible vs Inclusive Design</title>
+
+    <!-- add your stylesheet -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- I obtained the following code from https://youtu.be/CUEJkJ9HDbY?si=18qeB8Hr0Wp0FgT4. It is the HTML+CSS+JS code to allow light/dark mode to be toggled. This helps users choose the background they want for accessibility reasons -->
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    
+</head>
+
+<body>
+    <main>
+
+        <nav> 
+            <!--  nav menu https://www.youtube.com/watch?v=vz4z0RLcAyk -->
+            <div class="logo">
+                <img src="images/logo.svg" alt="Website logo. Orange square with two diamonds next to green text with the word 'accessibility'"> 
+            </div>
+
+            <ul>
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="references.html">References</a></li>
+                <li><a class="nav-link" href="reflexion.html">Reflexion</a></li>
+                <li><a href="#">
+                    <i class="bi bi-brightness-high-fill" id="toggleDark"></i></a></li>
+            </ul>
+        </nav>
+
+        <header class="page-header-secondary">
+            <div class="header-content">
+                <h1 class="header-title">Reflexion</h1>
+            </div>
+        </header>
+
+        <section><a class="back-link" href="index.html">Back to Home</a></section>
+
+        <section>
+        
+            Text
+
+        </section>
+
+        
+
+        <footer class="page-footer">
+            <div class="footer-content">
+                <p>
+                    <span class="footer-text">Raquel Riquelme Pérez</span>
+                    <span class="footer-separator">&middot;</span>
+                    <span class="footer-text">Year 2 Triad 2 - Coding and UX</span>
+                </p>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
